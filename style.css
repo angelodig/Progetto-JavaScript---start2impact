@@ -1,0 +1,90 @@
+* {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  color: #FFFFFF; /* white */
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("icons/iu.jpeg");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: fixed;
+}
+
+a {
+  text-decoration: none; /* remove underline */
+  padding: 2px;
+}
+
+/* Input */
+input[type=text] {
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: right;
+
+  background-color: inherit;
+  border: none;
+  outline: none;
+
+  width: 100%;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+::placeholder {
+  color: white;
+}
+
+#searchCityFormText {
+  font-size: 20px;
+  text-align: right;
+  padding-right: 50px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  outline: none;
+  color: red;
+
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Results */
+#showResultText {
+  font-size: 30px;
+  line-height: 30px;
+
+  margin-left: 20px;
+  padding-top: 300px;
+}
+
+/* Footer */
+#footerRectangle {
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#footerText {
+  align-items: center;
+  text-align: center;
+  padding: auto;
+}
